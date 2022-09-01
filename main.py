@@ -13,6 +13,7 @@ MAX_BATCH_EPISODES = 100
 MAX_BATCH_STEPS = 10000
 NOISE_STD = 0.01
 LEARNING_RATE = 0.001
+TARGET_REWARD = 500
 
 
 class Net(nn.Module):
@@ -114,7 +115,7 @@ if __name__ == "__main__":
 
         step_idx += 1
         m_reward = np.mean(batch_reward)
-        if m_reward > 199:
+        if m_reward >= TARGET_REWARD:
             print("Solved in %d steps" % step_idx)
             break
 
