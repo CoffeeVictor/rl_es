@@ -11,6 +11,7 @@ torch = "^1.12.1"
 tensorboard = "^2.10.0"
 tensorboardX = "^2.5.1"
 ptan = "0.3"
+opencv-python = "^4.6.0"
 
 [tool.poetry.dev-dependencies]
 
