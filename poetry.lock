@@ -200,6 +200,14 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
+name = "ptan"
+version = "0.3"
+description = "PyTorch reinforcement learning framework"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "pyasn1"
 version = "0.4.8"
 description = "ASN.1 types and codecs"
@@ -380,7 +388,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "ca8f624bd643b52278f69839996e0c1af3e47ce9d5109f1a6dbdc3a505555c12"
+content-hash = "285b6517279efa723ab10e8d2534edcd4e6126c52de73e2b12e137994a23cb0a"
 
 [metadata.files]
 absl-py = []
@@ -400,6 +408,7 @@ markupsafe = []
 numpy = []
 oauthlib = []
 protobuf = []
+ptan = []
 pyasn1 = []
 pyasn1-modules = []
 requests = []
