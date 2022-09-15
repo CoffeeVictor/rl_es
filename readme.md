@@ -18,7 +18,7 @@
 
 # Se estiver demorando muito focar no LunarLander
 
-# 200 000 passos +/-
+# 200 000 passos +/- pro LL e uns 5k pra o CartPole
 
 # Comparar com A2C e PPO SEM Optimizar os clássicos
 
