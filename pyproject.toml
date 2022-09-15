@@ -5,15 +5,17 @@ description = ""
 authors = ["Victor <jvgfs@cesar.org.br>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "3.8"
 gym = "^0.25.2"
 torch = "^1.12.1"
 tensorboard = "^2.10.0"
 tensorboardX = "^2.5.1"
 ptan = "0.3"
 opencv-python = "^4.6.0"
+optuna = "^3.0.1"
 
 [tool.poetry.dev-dependencies]
+ipykernel = "^6.15.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
